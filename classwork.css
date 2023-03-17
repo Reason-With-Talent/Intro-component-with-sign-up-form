@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url(./images/bg-intro-desktop.png);
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.sub-one, .sub-two{
+    width: 50%;
+}
+
+.sub-one h2{
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.sub-one p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.try{
+    background-color: hsl(248, 32%, 49%);
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sub-two form{
+    display: grid;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.sub-two form input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+
+form button{
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    color: #fff;
+    border-radius: 10px;
+}
+
+form p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+form p span{
+    color: red;
+    padding-left: 5px;
+}

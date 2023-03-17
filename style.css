@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(253, 2, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+display: grid;
+justify-content: center;
+}
+.lab{
+display: grid;
+justify-content: center;
+}
+form{
+background-color: white;
+border: none;
+width: fit-content;
+padding: 20px;
+}
